@@ -123,6 +123,7 @@ $$
 
 * Hessian is optional - requires more gradient evaluations
 
+
 ```
 >>> minx = scipy.optimize.fmin_ncg(f, [1], fprime=g)
 Optimization terminated successfully.
@@ -317,7 +318,7 @@ $$   \int_{-\infty}^\infty e^{-x^2} = \sqrt{\pi} $$
 
 ---
 
-Other module in scipy
+Other modules in scipy
 
 * Machine learning `scikit-learn`
 * Image processing `scikit-image`
