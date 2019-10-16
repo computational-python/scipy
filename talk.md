@@ -134,7 +134,6 @@ Optimization terminated successfully.
 >>> print(minx, f(minx))
 [0.5] [6.43644251e-19]
 
-
 ```    
 
 ---
