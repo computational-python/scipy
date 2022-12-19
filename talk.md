@@ -68,7 +68,7 @@ layout: false
 Optimization terminated successfully.
          Current function value: 0.000000
          Iterations: 2
-         Function evaluations: 39
+         Function evaluations: 27
          Gradient evaluations: 12
 >>> print(minx, f(minx))
 [0.49999999] [3.18759508e-16]
@@ -130,7 +130,7 @@ Optimization terminated successfully.
          Current function value: 0.000000
          Iterations: 7
          Function evaluations: 14
-         Gradient evaluations: 34
+         Gradient evaluations: 21
          Hessian evaluations: 0
 >>> print(minx, f(minx))
 [0.5] [6.43644251e-19]
@@ -151,7 +151,7 @@ Optimization terminated successfully.
          Current function value: 0.000000
          Iterations: 18
          Function evaluations: 26
-         Gradient evaluations: 43
+         Gradient evaluations: 26
          Hessian evaluations: 18
 >>> print(minx, f(minx))
 [0.50001252] [8.82312709e-10]
@@ -199,7 +199,7 @@ Optimization terminated successfully.
 >>> for k in dic:
 ...    print(k, dic[k])
 grad [-5.87412653e-09]
-task b'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+task CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL
 funcalls 11
 nit 6
 warnflag 0
@@ -219,9 +219,9 @@ warnflag 0
 >>> x = numpy.arange(0, 5, .1)    
 >>> y = f(x) + 0.01*numpy.random.normal(len(x))
 >>> print(scipy.optimize.curve_fit(f, x, y))
-(array([ 3.82190221,  0.37120325, -1.97183478]), array([[ 0.67662881, -0.15619811, -0.73417772],
-       [-0.15619811,  0.03843448,  0.19185848],
-       [-0.73417772,  0.19185848,  1.03203336]]))
+(array([ 3.82190257,  0.37120316, -1.9718352 ]), array([[ 0.67662808, -0.15619802, -0.73417703],
+       [-0.15619802,  0.03843448,  0.19185841],
+       [-0.73417703,  0.19185841,  1.03203265]]))
 
 ```
 
